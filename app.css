@@ -1,0 +1,58 @@
+
+.board{
+	margin-left:30%; 
+	width:600px;
+	 display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0px;
+  background-color:white;
+  padding: 10px;
+}
+.cell{
+	height: 150px;
+	text-align: center;
+	background-color: #00254d;
+	display: inline-block;
+	border: 2px solid black;
+	margin: 0px;
+	font-size: 70px;
+
+}
+section{
+	text-align: center;
+	background-color: #001a4d;
+}
+section .three{
+	margin-left:40%; 
+	margin-right: 2%;
+}
+section button{
+	margin-right:2%; 
+}
+h1{
+	color: yellow;
+}
+
+h2{
+	font-size: 70px;
+	color: white;
+}
+div{
+	display: block;
+}
+.selected{
+	background-color: white;
+	color: black;
+}
+.btn:focus{
+
+	background-color: white;
+	color: black;
+
+}
+
+.board h1{
+	color: black; 
+	font-size: 100px; 
+	text-align: center;
+}
